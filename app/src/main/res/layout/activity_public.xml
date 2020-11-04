@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    android:orientation="vertical"
+    tools:context=".Public">
+
+    <Button
+        android:id="@+id/btn_buet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="BUET"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_cuet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="CUET"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_cu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="CU"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_du"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="DU"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_sust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="SUST"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+</LinearLayout>
